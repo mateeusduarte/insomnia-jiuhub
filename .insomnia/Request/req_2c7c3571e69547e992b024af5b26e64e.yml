@@ -1,0 +1,37 @@
+_id: req_2c7c3571e69547e992b024af5b26e64e
+type: Request
+parentId: fld_6d71b47bc8d94833b0fd3584ca405403
+modified: 1679583973988
+created: 1679582274255
+url: http://localhost:9000/content
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Meu Novo Conteúdo",
+        "description": "Descrição do meu novo conteúdo",
+        "date": "2023-03-23T12:34:56.789Z",
+        "mediaUrl": "https://example.com/media.jpg",
+        "level": "ADVANCED",
+        "type": "POSITION CONTROL"
+      }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer {{ _.token }}
+    id: pair_fa0ca952a9c84b1faa9a6dddf1bd4e2b
+  - name: Content-Type
+    value: application/json
+    id: pair_93b53af280b54edeb66e015fe0c8d763
+authentication: {}
+metaSortKey: -1679582407720
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

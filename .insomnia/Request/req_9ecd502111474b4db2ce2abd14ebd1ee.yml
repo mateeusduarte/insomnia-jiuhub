@@ -1,0 +1,25 @@
+_id: req_9ecd502111474b4db2ce2abd14ebd1ee
+type: Request
+parentId: fld_6d71b47bc8d94833b0fd3584ca405403
+modified: 1679583986234
+created: 1679582875428
+url: http://localhost:9000/content/641c6a9b30329357913ca8a3
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_7a0f7c32bab2439f9f5cde6c60aa9ecc
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1679582407607.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

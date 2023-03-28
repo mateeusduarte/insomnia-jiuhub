@@ -1,0 +1,25 @@
+_id: req_900a5d2a155142c9b0fb480657fab71f
+type: Request
+parentId: fld_25614040aec2430b953b5c217735774b
+modified: 1679584704622
+created: 1679584284195
+url: http://localhost:9000/class
+name: index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5eb80ab01e794680a0ba0236989efcb9
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1679582407682.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

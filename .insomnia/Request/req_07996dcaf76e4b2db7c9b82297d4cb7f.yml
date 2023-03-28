@@ -1,0 +1,40 @@
+_id: req_07996dcaf76e4b2db7c9b82297d4cb7f
+type: Request
+parentId: fld_25614040aec2430b953b5c217735774b
+modified: 1679584685320
+created: 1679584284194
+url: http://localhost:9000/class
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Minha nova aula",
+        "teacher": "Professor João",
+        "duration": "60 minutos",
+        "belt_recommends": "BEGINNERS",
+        "age_group": "CHILD",
+        "rate": 5,
+        "description": "Descrição da minha nova aula",
+        "date": "2023-03-30T12:00:00.000Z"
+      }
+parameters: []
+headers:
+  - id: pair_7b955b8b9dd6448298fba8d72c41a45e
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_7803558bf53a4c3a86a0285783237e98
+authentication: {}
+metaSortKey: -1679582407720
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

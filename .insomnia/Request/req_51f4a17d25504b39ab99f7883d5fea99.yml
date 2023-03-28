@@ -1,0 +1,38 @@
+_id: req_51f4a17d25504b39ab99f7883d5fea99
+type: Request
+parentId: fld_a304254ef1e64360bf3e2d62ea03d8cd
+modified: 1680018626383
+created: 1679583180536
+url: http://localhost:9000/users/640f78959f818b03342e7dea
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "first_name": "Novo nome do usuário",
+      "email": "novoemail@exemplo.com",
+      "password": "123@ABC@abc",
+      "birth_date": "1990-01-01",
+      "phone_number": "555-555-5555",
+      "typeUser": "OWNER"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_859bfba0e6764608b940120caa7c1db2
+  - id: pair_5e62162501564203ad66ed7b8fc3f43f
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1678262244437.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

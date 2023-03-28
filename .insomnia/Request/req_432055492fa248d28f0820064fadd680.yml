@@ -1,0 +1,35 @@
+_id: req_432055492fa248d28f0820064fadd680
+type: Request
+parentId: fld_a304254ef1e64360bf3e2d62ea03d8cd
+modified: 1680018913960
+created: 1680016987474
+url: http://localhost:9000/user/create
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Mateus",
+    	"email": "mateus@gmail.com",
+    	"password":"123",
+    	"gender": "man",
+    	"birth_date": "2003-06-08",
+    	"phone_number":"+55 15 981076545",
+    	"userType":"owner",
+    	"gymId": "a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680016987474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

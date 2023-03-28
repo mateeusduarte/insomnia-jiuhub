@@ -1,0 +1,43 @@
+_id: req_9adfb14a55624356a37d50cb828578c9
+type: Request
+parentId: fld_181aa955198b49c594705f7356ef9ca4
+modified: 1679587471911
+created: 1679583029172
+url: http://localhost:9000/gym/6408d2eeabbefd2eb7caf305
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Minha academia atualizada",
+        "email": "novoemail@exemplo.com",
+        "owner": "6408bbe27c8b48edbdda0560",
+        "phone": "555-555-5555",
+        "students": [],
+        "location": {
+          "address": "456 Main St",
+          "city": "Anytown",
+          "state": "CA"
+        },
+        "image": "https://example.com/new-image.jpg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_40a4143465374d06ab6c4e4d7117e586
+  - id: pair_e0ab6a849be44e649e93215dcf621bd4
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1678267164253.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

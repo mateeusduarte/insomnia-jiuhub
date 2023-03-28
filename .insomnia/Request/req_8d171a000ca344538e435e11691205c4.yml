@@ -1,0 +1,35 @@
+_id: req_8d171a000ca344538e435e11691205c4
+type: Request
+parentId: fld_6d71b47bc8d94833b0fd3584ca405403
+modified: 1679583975046
+created: 1679582767700
+url: http://localhost:9000/content/640393b115133bcaf3c91ffd
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Meu Conteúdo Atualizado",
+        "description": "Nova descrição do meu conteúdo",
+        "mediaUrl": "https://example.com/new-media.jpg"
+      }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f6cc5a5500ca41e49a666cae118c7bd0
+  - id: pair_e749a308c61a40b7bfd04e5319cbbf55
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1679582407620
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

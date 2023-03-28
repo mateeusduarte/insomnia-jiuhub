@@ -1,0 +1,40 @@
+_id: req_3ecf283472b74b2b8bb48607f8435c09
+type: Request
+parentId: fld_25614040aec2430b953b5c217735774b
+modified: 1679584672572
+created: 1679584284197
+url: http://localhost:9000/class/64038d0b62dceeb75edc9757
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Minha nova aula",
+        "teacher": "Professor João",
+        "duration": "60 minutos",
+        "belt_recommends": "BEGINNERS",
+        "age_group": "ADULT",
+        "rate": 5,
+        "description": "Descrição da minha nova aula",
+        "date": "2023-03-30T12:00:00.000Z"
+      }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e9051f91103445b79a39794cf04bb0dc
+  - id: pair_cabc0291507d49979b29eef48ad1c922
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1679582407620
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

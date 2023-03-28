@@ -1,0 +1,43 @@
+_id: req_4272d992c60b48459e6d6e7703d71237
+type: Request
+parentId: fld_181aa955198b49c594705f7356ef9ca4
+modified: 1679585929636
+created: 1678297426205
+url: http://localhost:9000/gym/register
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "email": "example2@email.com",
+    "name": "Example Academy",
+    "owner": "6408bbe27c8b48edbdda0560",
+    "students": [],
+    "image": "https://example.com/image.jpg",
+    "phone": "555-555-5555",
+    "location": {
+    "address": "123 Main St",
+    "city": "Anytown",
+    "state": "CA"
+    }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9bf6052146664afbb387468b771f2d03
+  - id: pair_600643129b954674aa2081e19e613ee4
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1678292035644
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_0ec52eca9d91476b93fe246707703414
+type: Request
+parentId: fld_181aa955198b49c594705f7356ef9ca4
+modified: 1679583892294
+created: 1678297426209
+url: http://localhost:9000/gym/641c69f46fc4ff54d44e139b
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_315722912b4c41db9c8593c15b4df3fb
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_2c70b10a6af9455f879f6da8432f41ff
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1678252404805.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

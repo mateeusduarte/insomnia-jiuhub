@@ -1,0 +1,40 @@
+_id: req_f8e4217feebe4952a9996059af125882
+type: Request
+parentId: fld_a304254ef1e64360bf3e2d62ea03d8cd
+modified: 1680018923952
+created: 1680018170915
+url: http://localhost:9000/user/64230c8de302ffa1deecef99
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "MuriloA",
+    	"email": "mateus@gmail.com",
+    	"password":"123",
+    	"gender": "man",
+    	"birth_date": "2003-06-08",
+    	"phone_number":"+55 15 981076545",
+    	"userType":"owner",
+    	"gymId": "a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5218088b555747958182713534d4e0f4
+  - id: pair_448b633188114ee68f260eb756622a5e
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1680018170915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

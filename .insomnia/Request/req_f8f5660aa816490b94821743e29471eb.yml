@@ -1,0 +1,30 @@
+_id: req_f8f5660aa816490b94821743e29471eb
+type: Request
+parentId: fld_134d1df86bd541108a8ae2c33b19435d
+modified: 1680016976028
+created: 1680016900559
+url: http://localhost:9000/login
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    	{
+    		"email": "novoemail@exemplo.com",
+    		"password":"123@ABC@abc"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680016900559
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
